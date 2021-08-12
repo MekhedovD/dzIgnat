@@ -1,7 +1,23 @@
 .errorWrapper {
     background-image: url("https://www.meme-arsenal.com/memes/f9a568a007a0f759eed4d993cc20339c.jpg");
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 535px;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.errText {
+    width: 200px;
+    height: 77px;
+    background: black;
+    position: absolute;
+    bottom: 24%;
+    left: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
 }
