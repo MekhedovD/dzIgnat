@@ -1,0 +1,77 @@
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    height: 50px;
+    transform: translateX(-300px);
+    transition: 0.5s;
+}
+
+.offMenuButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    background: #ff510c;
+}
+
+.offMenuButton:after {
+    content: "\2630";
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.onMenuButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    background: #71f391;
+}
+
+.onMenuButton:after {
+    content: "\2613";
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    border-radius: 0 10px 10px 0;
+    background: #fdbd33;
+}
+
+.active {
+    color: #868efa;
+}
+
+.show {
+    transform: translate(0, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+.menuLink {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}
+
+/*.errorWrapper {*/
+/*    background-image: url("https://www.meme-arsenal.com/memes/f9a568a007a0f759eed4d993cc20339c.jpg");*/
+/*}*/

@@ -1,0 +1,17 @@
+.someClass {
+    border: 1px solid green;
+
+}
+
+.inputClass {
+    border: 2px solid green;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
