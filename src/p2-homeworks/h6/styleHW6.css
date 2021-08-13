@@ -1,0 +1,11 @@
+.wrapperHW6 {
+   text-align: center;
+}
+
+.inputHW6 {
+   background: whitesmoke;
+   padding: 5px 30px;
+   border-radius: 15px;
+   -webkit-box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.85);
+   box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.85);
+}
