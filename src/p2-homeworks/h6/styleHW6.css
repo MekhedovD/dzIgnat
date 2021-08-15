@@ -3,9 +3,19 @@
 }
 
 .inputHW6 {
+   border: none;
+   outline: none;
    background: whitesmoke;
-   padding: 5px 30px;
-   border-radius: 15px;
-   -webkit-box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.85);
-   box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.85);
+   padding: 5px 60px;
+   border-radius: 20px;
+   -webkit-box-shadow: 0px 3px 11px -1px rgba(0, 0, 0, 0.66);
+   box-shadow: 0px 3px 11px -1px rgba(0, 0, 0, 0.66);
+}
+
+.spanHW6 {
+   margin-bottom: 20px;
+}
+
+button {
+   margin: 10px;
 }

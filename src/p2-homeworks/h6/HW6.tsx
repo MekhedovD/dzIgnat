@@ -22,17 +22,16 @@ function HW6() {
 
         {/*should work (должно работать)*/}
         <div className="wrapperHW6">
-          <div>
+          <div className="spanHW6">
             <SuperEditableSpan
               value={value}
               onChangeText={setValue}
               spanProps={{children: value ? undefined : "enter text..."}}
             />
           </div>
-          <SuperButton onClick={save}>save</SuperButton>
-          <SuperButton onClick={restore}>restore</SuperButton>
+            <SuperButton onClick={save}>save</SuperButton>
+            <SuperButton onClick={restore}>restore</SuperButton>
         </div>
-
 
         <hr/>
         {/*для личного творчества, могу проверить*/}
