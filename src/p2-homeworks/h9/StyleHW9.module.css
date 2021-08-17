@@ -1,0 +1,25 @@
+.wrapperHW9 {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrTime, .wrDate {
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.wrTime {
+    background: #bcc0f5;
+    margin-bottom: 5px;
+}
+
+.wrDate {
+    background: #f5c7bc;
+}
+
+.wr {
+    height: 50px;
+}
