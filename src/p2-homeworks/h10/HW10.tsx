@@ -3,7 +3,10 @@ import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {useDispatch, useSelector} from "react-redux";
 import {AppStoreType} from "./bll/store";
 import {loadingAC} from "./bll/loadingReducer";
-import s from "./StyleHW10.module.css"
+import s from "./StyleHW10.module.css";
+import { CircularProgress } from "@material-ui/core";
+import preloader from "./preloader/Walk.gif";
+
 
 function HW10() {
   // useSelector, useDispatch
@@ -14,7 +17,7 @@ function HW10() {
     // dispatch
     // setTimeout
     dispatch(loadingAC(true))
-    setTimeout(() => dispatch(loadingAC(false)), 1500)
+    setTimeout(() => dispatch(loadingAC(false)), 3000)
     console.log("loading...");
   };
 
@@ -26,7 +29,8 @@ function HW10() {
         {/*should work (должно работать)*/}
         {loading
           ? (
-            <div>крутилка...</div>
+            <div><img src={preloader}/></div> // used gif
+            // <div><CircularProgress /></div> // used material-ui
           ) : (
             <div>
               <SuperButton onClick={setLoading}>set loading...</SuperButton>

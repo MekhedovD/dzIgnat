@@ -1,4 +1,6 @@
 .wrapperHW10 {
+    display: flex;
+    justify-content: center;
     width: 200px;
     margin: 0 auto;
 }
