@@ -1,0 +1,23 @@
+.wrapperHW11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    margin: 0 auto;
+}
+
+.sliderHW11 {
+   width: 100%;
+    padding: 10px;
+}
+
+.range {
+    width: 160px;
+}
+
+.doubleRange {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
